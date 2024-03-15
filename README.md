@@ -1,28 +1,28 @@
 # Apresentacao-PDV
 
-# Documentação
+Sistema de ponto de venda (PDV), o qual possui os módulos:
 
-Olá, desenvolvedor. Os passos abaixo servem como manual para compreensão das boas práticas de desenvolvimento deste projeto.
+ · Nova Venda: Visualização do usuário e cliente, além de funcionar via barcode para escanear os produtos, o usuário pode pesquisar por nome ou código EAN.
+ 
+ · Cancelar: Módulo onde cancela uma venda e registra o histórico das vendas canceladas.
+ 
+ · Produtos: Módulo onde mostra todos os produtos, contendo filtragem, cadastro, edição, remoção e exportação para excel ou pdf, além das rotinas de adição e ajuste de saldo.
+ 
+ · Vendas: Módulo onde lista todas as vendas com opção de filtragem, exportação para pdf e excel e tela específica para ter fácil acesso dos produtos que pertencem a essa venda específica.
+ 
+ · Caixa: Módulo dividido em 5 partes, sendo:
+ 
+ · Abertura: Realiza a abertura do caixa sem nenhum saldo.
+ 
+ · Fechamento: Realiza o fechamento do caixa.
+ 
+ · Reforço: Adiciona saldo ao caixa.
+ 
+ · Retirada: Subtrai saldo do caixa.
+ 
+ · Visualização: Mostra a tabela com todas as movimentações do caixa e também contém tela específica para visualizar informações mais detalhadas de cada movimentação.
 
-## Abrindo o projeto pela primeira vez.
-
-Agora é a hora da verdade, vamos fazer o projeto rodar corretamente na máquina seguindo os seguintes passos:
-
-1. No Github Desktop, já com o projeto clonado, clique em `Open in Visual Studio Code`
-   1.1 Caso a opção não apareça devido a modificações nos arquivos você pode abrir a pasta do projeto > clicar com o botão direito > Abrir com VSCODE.
-   Ou ainda mais fácil, ainda no Github Desktop, clicar com o botão direito sobre o _Current-reposity **sat**_ na parte superior esquerda e ir em `Open in Visual Studio Code`
-
-2. Ainda no terminal do VSCode digite  ` npm install`
-
-**_NÃO DIGITE NPM UPDATE_** - As versões serão atualizadas sob medida para evitar problemas.
-
-4. Vamos testar agora. Digite `npm start`
-
-5. Depois que retornar _Compiled Successfully_ abra o [http://localhost:3000/](http://localhost:3000/)
-
-Pronto, o projeto está funcionando na sua máquina.
-
-`Observação:` Por ser um projeto empresarial, não posso deixar todo o código aqui mas vou deixar algumas imagens do projeto.
+`Observação:` Por ser um projeto empresarial, não posso deixar o código aqui mas vou deixar algumas imagens do projeto.
 
 ## Imagens
  ![ HOME](/public/home.png)
@@ -32,4 +32,3 @@ Pronto, o projeto está funcionando na sua máquina.
  ![ HOME](/public/nova_venda.png)
  #
  
- Não posso colocar mais imagens a respeito do projeto mas ficaria feliz em conversar sobre.
